@@ -7,7 +7,7 @@ import MainPageSkeleton from "@/components/ui/loaders/MainPageSkeleton";
 
 export default function Home() {
 	return (
-		<Suspense fallback={<MainPageSkeleton />}>
+		<Suspense>
 			<SessionWrapperWithNavBar>
 				<ImageCover buttonUrl={"/rifas/estado/activa"} />
 				<ConcursosySorteos />
