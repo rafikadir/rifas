@@ -1,0 +1,1 @@
+export const getSubtotal = (price: number, amount: number) => price * amount;
