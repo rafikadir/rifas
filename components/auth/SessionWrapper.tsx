@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 import { Suspense } from "react";
 import { getSession } from "@/src/lib/auth/getSession";
 import { userRoles } from "@/src/interfaces/users";
-import HeaderSkeleton from "../ui/loaders/HeaderSkeleton";
+// import HeaderSkeleton from "../ui/loaders/HeaderSkeleton";
 import Navbar from "../ui/Navbar";
 import Footer from "../ui/Footer";
 
