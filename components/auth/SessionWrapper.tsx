@@ -35,7 +35,7 @@ export async function SessionWrapperWithNavBar({
 			  ];
 
 	return (
-		<Suspense fallback={<HeaderSkeleton />}>
+		<Suspense>
 			<Navbar user={user} navigation={navigation} />
 			<main className={className}>{children}</main>
 			<Footer />
